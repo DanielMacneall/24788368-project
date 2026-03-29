@@ -10,16 +10,20 @@ RFID Card Reader:
   the tag is the same person the tag belongs to.
   Source: https://www.assaabloy.com/au/en/stories/blog/rfid-door-locks--smart-entry-systems
   Image source: cykeorfid.com/rfid-door-lock-access-control-system-the-subtle-power-behind-secure-doors/
-Biometric Lock
+Biometric Lock:
   Biometric locks use biometric technology to secure doors. It uses things like fingerprints, voice recognition, retina scans or facial recognition. These are all things
   that are inherant to a person, and cannot be easily replicated by someone trying to gain unauthorised access. These locks don't require remembering any passwords, PINs,
   or keys, just physical, biological features.
   Source: https://www.nordencommunication.com/en/blog/what-is-biometric-smart-lock
   Image source: https://manuals.plus/asin/B08XQ8K41P
-Time Lock
-Solenoid Lock
-Maglock
-Keypad Lock
-Combination Lock
-Chain Lock
-Pin Tumbler Lock
+Time Lock:
+  Commonly used in bank vaults, time locks use a built in timer to prevent vaults from being openned between certain times. For example, they are used in bank vaults
+  to secure the vault after-hours, removing the risk of bank managers being kidnapped for vault combinations. 
+  Source: https://en.wikipedia.org/wiki/Time_lock
+  Image source: https://en.wikipedia.org/wiki/File:Timelocks.jpg
+Solenoid Lock:
+Maglock:
+Keypad Lock:
+Combination Lock:
+Chain Lock:
+Pin Tumbler Lock:
