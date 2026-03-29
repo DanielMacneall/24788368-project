@@ -22,6 +22,11 @@ Time Lock:
   Source: https://en.wikipedia.org/wiki/Time_lock
   Image source: https://en.wikipedia.org/wiki/File:Timelocks.jpg
 Solenoid Lock:
+  Solenoid locks contain a solenoid, which is a coil of wire designed to create a magnetic field when current is passed through it. This magnetic field moves the 
+  locking bails. Some solenoid locks are default locked, requiring the electirical current to unlock the door. This means that the lock is still secure even if there
+  is a power outage.
+  Source: https://magnet-schultzamerica.com/resources/blog/whysolenoidspart1/#:~:text=Essentially%2C%20it%20acts%20like%20a,mechanisms%20makes%20them%20particularly%20valuable.
+  Image source: https://magnet-schultzamerica.com/wp-content/uploads/2024/11/lockingsolenoid.png
 Maglock:
 Keypad Lock:
 Combination Lock:
