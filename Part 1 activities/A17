@@ -3,13 +3,18 @@ Wheel Clamp:
   vehicle repossession.
   Source: https://en.wikipedia.org/wiki/Wheel_clamp
   Image source: https://www.yarrasupply.com.au/products/wheel-clamp-13-14-15?srsltid=AfmBOoqbV9Sppl8ziscTUHfojuuwpfVP9_8OR95wT99yxf9CwvXr2NSs
-RFID card reader:
-  
-biometric
-time lock
-solenoid lock
-maglock
-keypad lock
-combination lock
-chain lock
-pin tumbler lock
+RFID Card Reader:
+  Radio Frequency Identification locks use electromagnetic fields to enable communication between two devices, often a card/ fob and a reader. These are often used in
+  industry and businesses to provide a secondary layer of security when trying to access a building/ room. The RFID tag communicates with the reader via radio waves.
+  The tag must be programmed with a unique credential that will identify and allow access for authorised people. However, there is no guarantee that the person using \
+  the tag is the same person the tag belongs to.
+  Source: https://www.assaabloy.com/au/en/stories/blog/rfid-door-locks--smart-entry-systems
+  Image source: cykeorfid.com/rfid-door-lock-access-control-system-the-subtle-power-behind-secure-doors/
+Biometric Lock
+Time Lock
+Solenoid Lock
+Maglock
+Keypad Lock
+Combination Lock
+Chain Lock
+Pin Tumbler Lock
