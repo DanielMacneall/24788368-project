@@ -28,6 +28,11 @@ Solenoid Lock:
   Source: https://magnet-schultzamerica.com/resources/blog/whysolenoidspart1/#:~:text=Essentially%2C%20it%20acts%20like%20a,mechanisms%20makes%20them%20particularly%20valuable.
   Image source: https://magnet-schultzamerica.com/wp-content/uploads/2024/11/lockingsolenoid.png
 Maglock:
+  Electromagnetic locks use an electrically generated magnetic field to hold the door shut. They magnetically attach to a plate attached to the door. These locks,
+  unlike the solenoid lock, requires constant power to generate the magnetic field. Without the electrical current, the magnetic field falters and there is nothing
+  actually locking the door. Despite this, they are low energy consumption, so require little amounts of electricity, despite its constant requirement.
+  Source: https://kerisys.com/resources/everything-you-need-to-know-about-a-maglock/
+  Image source: https://www.locksgalore.com.au/security-products/product/fsh-maglock-fem5000g-magnetic-gate-lock?srsltid=AfmBOoqtkGNbb6js9snqHcvyjJkZW5lzK59Qselszubt-CPC2pxP-2nA
 Keypad Lock:
 Combination Lock:
 Chain Lock:
