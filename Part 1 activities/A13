@@ -1,1 +1,43 @@
+Antiviruses:
+  Antiviruses are software that keeps devices secure by providing protection against malicious software (malware). Antiviruses can work in one of two ways: by scanning
+  programs and files as they enter the device and comparing them to known viruses, or it can scan the files already on the device to try and locate any suspicious 
+  behaviour. If an antivirus software detects potentially malicious software, it flags the file to be checked by the user, in case it's a false positive. If the software
+  knows for sure that the file is malicious, it will automatically remove it from the device.
+Virtual Private Networks (VPNs):
+  VPNs are like regular browsers, except instead of routing your connection through your regular Internet Service Provider (ISP), it is routed through a private company.
+  This masks the user's IP address. The VPN masks the location of the user, displaying a location set by the user. This provides security because the user cannot be 
+  traced to their actual location by malicious users/ onlookers trying to gain sensitive information about users. Masking the IP address also prevents anyone who knows a
+  user's IP address from viewing their search history, which could provide information to an attacker about compromising health-based or location-based conditions.
+Password Managers:
+  A password manager is a tool that allows you to create secure and unique passwords for all of your logins, while only needing to remember one password. The only 
+  password that must be remembered is the login for the password manager itself. This can be a password, PIN or biometrics. They store all of your passwords, potentially
+  featuring auto-fills to save time. Some more secure password managers feature additional methods to make them even more secure. For example, some feature encryption,
+  to make the passwords harder for an attacker to get at. They can also feature two-factor authentication, ensuring that only the owner can access them.
+Firewalls:
+  A firewall is either a hardware device or a piece of software that helps protect the network from attackers. It is a filter that scans the data coming into the network
+  preventing anything suspicious from entering. They do this by examining the data packets and comparing them to pre-defined rules. The rules are based on things like:
+  source/ destination IP, ports and protocols. To enforce these rules, firewalls use techniques like packet filtering, proxy services, and stateful inspections.
+  Packet filtering is the inspection of data packets as they travel through the firewall. 
+  Proxy services are systems or routers that provides a connection between users and the internet.
+  Stateful inspections monitor and maintain the context of active connections in order to make decisions about which packets to let through.
+Vulnerability Scanners:
+  Vulnerability scanners detect security weaknesses in systems and the software that runs the systems. First, vulnerability scanners create an inventory of assets. This
+  includes operating systems, software, open ports and user accounts. Then, it scans the networks, hardware, software and systems to identify potential risk exposures
+  and attack vectors. It will then compare these to known flaws. Any detected flaws/ weaknesses are then classified and reported on to help the organisation fix them.
+  There are both authenticated, which require valid login credentials to the target system, and unauthenticated, which are performed outside the system and don't require
+  logins.
 
+Antivirus sources:
+  https://www.security.org/antivirus/how-does-antivirus-work/
+  https://www.cyber.gov.au/protect-yourself/securing-your-devices/how-secure-your-device/antivirus-software
+VPN source:
+  https://www.fortinet.com/resources/cyberglossary/how-does-vpn-work
+Password source:
+  https://www.cyber.gov.au/protect-yourself/securing-your-accounts/password-managers
+Firewall source:
+  https://www.fortinet.com/resources/cyberglossary/how-does-a-firewall-work  
+  https://blog.gigamon.com/2024/02/09/what-is-packet-filtering/
+  https://www.fortinet.com/resources/cyberglossary/proxy-server
+  https://www.paloaltonetworks.com/cyberpedia/what-is-a-stateful-firewall
+Vulnerability source:
+  https://www.splunk.com/en_us/blog/learn/vulnerability-scanning.html
