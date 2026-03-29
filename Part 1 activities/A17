@@ -48,4 +48,9 @@ Security Chain Lock:
   that reaches far enough that it doesn't have enough slack to be openned when the door is open. At the end of the chain, there is a bolt, that goes into a sliding rack
   from the far end to the close end.
   Image source: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Door_chain.JPG/500px-Door_chain.JPG
-Pin Tumbler Lock:
+Pin Tumbler Lock
+  This is the most common type of lock available. It consists of a series of spring loaded pins, each of varying lengths. When the pins are aligned at the correct
+  heights, the plug is allowed to turn. The turning action of this plug retracts the locking bolt. To get the pins aligned, the correct key must be inserted. An 
+  incorrect key will not result in the correct alignment.
+  Source: https://en.wikipedia.org/wiki/Pin_tumbler_lock
+  Image source: https://en.wikipedia.org/wiki/File:Pin_tumbler_with_key.svg
