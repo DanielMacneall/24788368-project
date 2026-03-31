@@ -1,5 +1,5 @@
 Device specific passkey for the Wifi
-  Device specific passkeys are unique Wifi passwords belonging to individual devices on a network. 
+  Device specific passkeys are unique Wifi passwords belonging to individual devices on a network. They reduce the likelihood of unauthorised access if a password is
+  shared, because the shared password will not work on any other device than the one it was generated for.
 Sources: 
   https://www.supernetworks.org/pages/docs/knowledgebase/ppsk-wpa3-wifi-security
-  https://www.cyber.gov.au/protect-yourself/secure-your-accounts/passkeys
