@@ -1,4 +1,5 @@
-Device specific passkey for the wifi
-
-Source: https://www.supernetworks.org/pages/docs/knowledgebase/ppsk-wpa3-wifi-security
+Device specific passkey for the Wifi
+  Device specific passkeys are unique Wifi passwords belonging to individual devices on a network. 
+Sources: 
+  https://www.supernetworks.org/pages/docs/knowledgebase/ppsk-wpa3-wifi-security
   https://www.cyber.gov.au/protect-yourself/secure-your-accounts/passkeys
