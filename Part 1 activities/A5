@@ -1,1 +1,13 @@
-HTTPS
+HTTPS (Hypetext Transfer Protocol Secure) is a secure version of HTTP, on port 443, which is the protocol used to transmit data between a website and a user's browser.
+HTTPS uses the encryption protocol Transfer Layer Security (TSL) to encrypt the communication between the web browser and the website. When a user first connects to 
+a website, the browser and site perform a 'TSL handshake'. This handshake establishes that the site is who it says it is, and establishes the public and private keys that
+will be used by the connection.
+To use HTTPS, a server must have a TSL certificate, which contains information about the server, including its public key and the owner of the domain. This must be
+gotten from a certificate authority. To verify the server is correct, the browser will check the information present in the certificate, and verify its correctness with 
+the public key. Once the browser has verified the connection, session keys are generated for encypting the communication between site and browser. This is done by 
+asymmetric encryption, each site and browser generating their own temporary private and public keys. These will be used for encrypting and decrypting the data sent 
+between them. To ensure that the connection isn't being tampered with (i.e a man in the middle attack), the data is signed with a Message Authentication Code (MAC)
+
+Sources:
+  https://www.cloudflare.com/en-au/learning/ssl/what-is-https/
+  https://www.cloudflare.com/en-au/learning/ssl/transport-layer-security-tls/
