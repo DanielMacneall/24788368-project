@@ -1,1 +1,6 @@
-Asymetric encryption of files before sending the files
+An example of offline cryptography is the offline encryption of files on a USB.
+If a user wants their offline files to be more secure, they can encrypt the files. This will protect the files from anyone who doesn't have the key to decrypt them.
+The most common encryption technique is AES (Advanced Encryption Standard). For this technique, the user would have to first create a 16 byte initialisation vector.
+This vector doesn't have to be secret, but does have to be exactly 16 bytes. Next, the user must come up with a secret key. This key must be 128, 192 or 256 bits longs
+and must remain secret. Once the initialisation vector, file, and key are loaded into the user's preferred offline program, it encrypts the files on the USB. These files
+are safe from hackers on the cloud, and if the user gets a virus/ malware after the files encryption, they cannot be accessed unless plugged into the infected computer.
