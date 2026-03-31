@@ -1,1 +1,7 @@
+Often, websites that have user accounts utilise an SQL database that contains usernames and passwords, and matches the inputted password to what is in the table.
+This can be a major vulnerability when there is no prompt checking. For example, in the OWASP juice shop website, this vulnerability is present.
+It works when a prompt such as "' or 1=1 -- -" is submitted instead of an email or username. This works because the SQL query to authenticate the user is 
+SELECT * FROM Users WHERE email = '' or 1=1 -- - ' AND password = ''
 
+This will return everything from the Users table, because 1 always equals 1, and the rest of the query was commented out.
+One way to fix this is to use prepared statements, which separates the SQL query from the user inputted data. This 
