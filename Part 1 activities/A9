@@ -1,2 +1,11 @@
-Multifactor authentication
+A privacy technique used in online is multifactor authentication. Multifactor authentication is a combination of something a user knows, something they have, or 
+something they are. This combination keeps accounts and data more secure because it makes it harder for hackers to infiltrate. 
+Things you know include PINs and passwords. This is the most commonly used factor, and when used on its own is referred to as single authentication.
+Things you have includes authenticator apps, SMS and emails. These all use one time passwords (OTP). This is a randomly generated code that must be entered to access 
+your online account. 
+Things you are include fingerprints, facial recognition and voice recognition. These are often supported by most phones, and provide an easy way to login to a device,
+because they cannot be forgotten or lost, and they are hard to replicate by an attacker.
+Multifactor authentication is a privacy preserving technique because it helps to keep your data private, by preventing hackers being able to gain access. With stric 
+access controls like this, you remain in control of who sees your data.
 
+Source: https://www.vic.gov.au/multi-factor-authentication
