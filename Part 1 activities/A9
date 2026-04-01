@@ -5,7 +5,7 @@ Things you have includes authenticator apps, SMS and emails. These all use one t
 your online account. 
 Things you are include fingerprints, facial recognition and voice recognition. These are often supported by most phones, and provide an easy way to login to a device,
 because they cannot be forgotten or lost, and they are hard to replicate by an attacker.
-Multifactor authentication is a privacy preserving technique because it helps to keep your data private, by preventing hackers being able to gain access. With stric 
+Multifactor authentication is a privacy preserving technique because it helps to keep your data private, by preventing hackers being able to gain access. With strict 
 access controls like this, you remain in control of who sees your data.
 
 Source: https://www.vic.gov.au/multi-factor-authentication
