@@ -1,5 +1,5 @@
 One easy way that I enhanced the cybersecurity of my home was to ensure that everything had multi-factor authentication enabled. This included emails and Wifi.
-I set up this so that whenever a new user tries to connect to the Wifi network, it sends a verification code to the primary phone number. For emails, everytime anyone 
-signs into their emails on a browser or a new device, it also sends a verification code to their phone number.These work in two ways. It ensures that new and 
+I set up this so that whenever a new user tries to connect to the Wifi network, it sends a verification code to the primary phone number. For emails, every time anyone 
+signs into their emails on a browser or a new device, it also sends a verification code to their phone number. These work in two ways. It ensures that new and 
 potentially malicious users cannot enter the network without permission from the owner of the network. It also means that the owner of the network always knows when 
 someone is trying to access the network, and if it is no one that is supposed to be, can initiate action to prevent intrusion if something should fail.
