@@ -1,5 +1,5 @@
 Crowdstrike Falcon: A cloud based platform designed to protect critical areas of business risk. It includes endpoints, cloud workloads, identity and data.
-  It uses its built in AI to help deliver very acurate detections, protection and remediation.
+  It uses its built in AI to help deliver very accurate detections, protection and remediation.
   Source: https://www.crowdstrike.com/en-us/platform/
 Microsoft Sentinel: A cloud based security information and event management solution. Sentinel allows analysts to anticipate and stop attacks across the cloud. 
   Source: http://learn.microsoft.com/en-us/azure/sentinel/overview?tabs=defender-portal
