@@ -1,1 +1,13 @@
-email encryption
+An example of cryptography online is email encryption. This is where emails are encrypted using public key encryption so only the intended recipient can read it.
+Each email is encrypted with the public key of the recipient. Only the intended recipient can decrypt it, using their private key. Email encryption can be secured 
+further by also encrypting the communication channels too. It is very important that emails are encrypted, because they often contain lots of personal identifiable
+information that, if stolen, could be used for identity theft. For example; names, addresses, bank account numbers, login credentials, intellectual property and
+patient health information.
+There are several protocols for email encryption:
+Pretty Good Privacy- Uses asymmetric key encryption, symmetric key encryption, hashing and data encryption to securely encrypt emails. It can be hard to use however.
+Secure Sockets Layer (SSL)- The precurser to TSL, SSL begins with a 'handshake' between the two communicating devices to ensure their identities. SSL also signs the 
+messages, to prove that they weren't tampered with during transit.
+Advanced Encryption Standard (AES)- Symmetric encryption using very long keys, AES is the most common free encryption software, and is the standard for financial
+companies. The length of the keys makes AES difficult to hack.
+
+Source: https://www.microsoft.com/en-au/security/business/security-101/what-is-email-encryption
