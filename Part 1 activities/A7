@@ -1,1 +1,8 @@
-ssh
+Secure Shell protocol (SSH) is a method used to securely send commands to a computer over an unsecured network.
+SSH sets up a connection between a device and, most commonly, a server. To connect to the server, SSH uses the TCP/IP protocol, which is 
+what is used by most of the internet. This connection is protected by encryption that prevents eaves droppers from viewing the raw data. This encryption is done via 
+public key cryptography. Public key cryptography is part of asymmetric cryptography, where each party has a private and public key that they use to encrypt/ decrypt data
+to prove their identity as well as providing a secure connection. Unlike HTTPS, both user and server are authenticated during SSH. After both parties are authenticated,
+they agree on a symmetric key to use for the rest of the data transfer. This is because symmetric encryption is less expensive computationally, and is quicker to use.
+
+Source: https://www.cloudflare.com/en-au/learning/access-management/what-is-ssh/
