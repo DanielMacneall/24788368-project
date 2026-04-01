@@ -12,18 +12,18 @@ RFID Card Reader:
   Image source: cykeorfid.com/rfid-door-lock-access-control-system-the-subtle-power-behind-secure-doors/
 Biometric Lock:
   Biometric locks use biometric technology to secure doors. It uses things like fingerprints, voice recognition, retina scans or facial recognition. These are all things
-  that are inherant to a person, and cannot be easily replicated by someone trying to gain unauthorised access. These locks don't require remembering any passwords, PINs,
+  that are inherent to a person, and cannot be easily replicated by someone trying to gain unauthorised access. These locks don't require remembering any passwords, PINs,
   or keys, just physical, biological features.
   Source: https://www.nordencommunication.com/en/blog/what-is-biometric-smart-lock
   Image source: https://manuals.plus/asin/B08XQ8K41P
 Time Lock:
-  Commonly used in bank vaults, time locks use a built in timer to prevent vaults from being openned between certain times. For example, they are used in bank vaults
+  Commonly used in bank vaults, time locks use a built in timer to prevent vaults from being opened between certain times. For example, they are used in bank vaults
   to secure the vault after-hours, removing the risk of bank managers being kidnapped for vault combinations. 
   Source: https://en.wikipedia.org/wiki/Time_lock
   Image source: https://en.wikipedia.org/wiki/File:Timelocks.jpg
 Solenoid Lock:
   Solenoid locks contain a solenoid, which is a coil of wire designed to create a magnetic field when current is passed through it. This magnetic field moves the 
-  locking bails. Some solenoid locks are default locked, requiring the electirical current to unlock the door. This means that the lock is still secure even if there
+  locking bails. Some solenoid locks are default locked, requiring the electrical current to unlock the door. This means that the lock is still secure even if there
   is a power outage.
   Source: https://magnet-schultzamerica.com/resources/blog/whysolenoidspart1/#:~:text=Essentially%2C%20it%20acts%20like%20a,mechanisms%20makes%20them%20particularly%20valuable.
   Image source: https://magnet-schultzamerica.com/wp-content/uploads/2024/11/lockingsolenoid.png
@@ -45,10 +45,10 @@ Combination Lock:
   Image source: https://www.insight-security.com/images/news/pexels-laura-gigch-340723-943922.jpg
 Security Chain Lock: 
   These locks provide an extra layer of security on doors. They are most common in hotel rooms, and once locked, cannot be opened from the outside. They feature a chain
-  that reaches far enough that it doesn't have enough slack to be openned when the door is open. At the end of the chain, there is a bolt, that goes into a sliding rack
+  that reaches far enough that it doesn't have enough slack to be opened when the door is open. At the end of the chain, there is a bolt, that goes into a sliding rack
   from the far end to the close end.
   Image source: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Door_chain.JPG/500px-Door_chain.JPG
-Pin Tumbler Lock
+Pin Tumbler Lock:
   This is the most common type of lock available. It consists of a series of spring loaded pins, each of varying lengths. When the pins are aligned at the correct
   heights, the plug is allowed to turn. The turning action of this plug retracts the locking bolt. To get the pins aligned, the correct key must be inserted. An 
   incorrect key will not result in the correct alignment.
