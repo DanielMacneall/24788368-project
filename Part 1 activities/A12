@@ -4,10 +4,10 @@ RSA SecurID is an offline token that is designed to create authentication codes.
   have generated. If they match, the user is authenticated. 
   Source: https://en.wikipedia.org/wiki/RSA_SecurID
   Image source: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/SecureID_token_new.JPG/500px-SecureID_token_new.JPG
-Virus Scanners: Every type and subtype of viruses have different propagation methods, and have different code structures. However, they all have similar features in thei
+Virus Scanners: Every type and subtype of viruses have different propagation methods, and have different code structures. However, they all have similar features in their
   codes, and virus scanners look for the signatures produced by malware. The virus scanner uses profiles to compare to files on the host device. If a file matches the signature
   in the profiles, the scanner will alert. Profiles contain general features for several types of malware, because viruses are constantly updating and so a specific profile
-  might let too many viruses through. When it detects a mailcious file, it can either disinfect it (remove the malicious parts), put it in quarantine (where it can do no
+  might let too many viruses through. When it detects a malicious file, it can either disinfect it (remove the malicious parts), put it in quarantine (where it can do no
   damage, but still attempt to be fixed) or deleted (once it has been proved to not harm the computer to do so).
   Source: https://www.gdatasoftware.com/guidebook/what-actually-is-a-virus-scanner
   Image Source: https://www.gdatasoftware.com/fileadmin/_processed_/e/2/G_DATA_Screenshot_IS_2018_SecurityCenter_EN_Correct_66ea191a5b.jpg
@@ -18,7 +18,7 @@ Hashcat: Hashcat is the fastest open-source password cracking software. This is 
     the desired hash. This is best for weak passwords.
   Brute-force attack: This is when it generates every character combination within a set of guidelines. It compares the hashes of these with the desired hash. It is the
     most computationally expensive though
-  Rule-based attack: Similar to the dictionary attack, this swaps symbols in for letters of dictionary words following common password ruless. For example, 'a' becomes '@'.
+  Rule-based attack: Similar to the dictionary attack, this swaps symbols in for letters of dictionary words following common password rules. For example, 'a' becomes '@'.
   Source: https://jumpcloud.com/it-index/what-is-hashcat
   Image Source: https://hashcat.net/hashcat/hashcat700.png
 Nikto: Nikto is an open-source software that scans web servers for vulnerabilities. It can also check for outdated version details, and can scan current servers for faults
