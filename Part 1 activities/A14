@@ -1,5 +1,13 @@
-Crowdstrike Falcon: 
+Crowdstrike Falcon: A cloud based platform designed to protect critical areas of business risk. It includes endpoints, cloud workloads, identity and data.
+  It uses its built in AI to help deliver very acurate detections, protection and remediation.
+  Source: https://www.crowdstrike.com/en-us/platform/
 Microsoft Sentinel: A cloud based security information and event management solution. Sentinel allows analysts to anticipate and stop attacks across the cloud. 
-ibm qradar
-sentinelone
-snyk
+  Source: http://learn.microsoft.com/en-us/azure/sentinel/overview?tabs=defender-portal
+IBM QRadar: Utilises User Behaviour Analytics to establish a behaviour baseline for employees to better detect threats. It also analyses network activity in real time to deliver
+  actionable insights to effectively respond to problems with the network.
+  Source: https://www.ibm.com/products/qradar
+SentinelOne: Offers AI-supported security solutions, providing protection across endpoints, the cloud and identities. Real-time AI detection helps respond to 
+  secure against threats quickly and accurately.
+  Source: https://www.sentinelone.com/?utm_content=chatbot
+Snyk: Designed to enhance productivity while reducing business risk. It makes software delivery more secure, and quicker.
+  Source: https://snyk.io/
