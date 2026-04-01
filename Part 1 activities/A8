@@ -6,7 +6,7 @@ To use HTTPS, a server must have a TSL certificate, which contains information a
 gotten from a certificate authority. To verify the server is correct, the browser will check the information present in the certificate, and verify its correctness with 
 the public key. Once the browser has verified the connection, session keys are generated for encrypting the communication between site and browser. This is done by 
 asymmetric encryption, each site and browser generating their own temporary private and public keys. These will be used for encrypting and decrypting the data sent 
-between them. To ensure that the connection isn't being tampered with (i.e a man in the middle attack), the data is signed with a Message Authentication Code (MAC)
+between them. To ensure that the connection isn't being tampered with (i.e a man in the middle attack), the data is signed with a Message Authentication Code (MAC).
 
 Sources:
   https://www.cloudflare.com/en-au/learning/ssl/what-is-https/
