@@ -21,5 +21,15 @@ Hashcat: Hashcat is the fastest open-source password cracking software. This is 
   Rule-based attack: Similar to the dictionary attack, this swaps symbols in for letters of dictionary words following common password ruless. For example, 'a' becomes '@'.
   Source: https://jumpcloud.com/it-index/what-is-hashcat
   Image Source: https://hashcat.net/hashcat/hashcat700.png
-Nikto: 
-Kali Linux: 
+Nikto: Nikto is an open-source software that scans web servers for vulnerabilities. It can also check for outdated version details, and can scan current servers for faults
+  in specific server details. It also captures and prints cookies. This can be used to ensure a website is as secure as it can be, helping to identify any issues within
+  the server to be fixed. It provides explanations about how the vulnerabilities it finds are dangerous to the server.
+  Sources: 
+    https://en.wikipedia.org/wiki/Nikto_(vulnerability_scanner)
+    https://www.geeksforgeeks.org/ethical-hacking/what-is-nikto-and-its-usages/
+  Image Source: https://en.wikipedia.org/wiki/File:Nikto2.png
+Kali Linux: Kali linux is a linux distribution that allows users to perform penetration testing and security auditing. It allows users to test the skills and knowledge
+  in security practices in a simulated environment, without risk to their host machine. Kali linux contains hundreds of tools, configurations and scripts to allow users
+  to focus on tasks like digital forensics, vulnerability testing and reverse engineering.
+  Source: https://www.kali.org/docs/introduction/what-is-kali-linux/
+  Image source: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/VirtualBox_Kali_Linux_29_03_2022_11_10_35.png/500px-VirtualBox_Kali_Linux_29_03_2022_11_10_35.png
