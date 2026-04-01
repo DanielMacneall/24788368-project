@@ -1,5 +1,27 @@
-mobile credential readers
-intercom systems
-turnstiles
-bollards
-interlocking/airlock doors
+Mobile Credential Readers: Unique digital keys issued to employees or residents for property access. They are on the user's mobile phones. This reduces the cost for 
+  building supervisors, as physical keys/ fobs don't have to be produced. Issuing, adjusting or removing privileges can easily be done remotely. This is much easier for
+  uncooperative tennants than trying to get a key returned, and unlike a physical key, it cannot be cloned. For apps, when the user wants to enter the door, they must 
+  open the app and hold the device up to the reader. The reader uses Wifi, Bluetooth or Near Field Communication to search for a verified credential that matches one stored.
+  Source: https://www.avigilon.com/blog/mobile-credentials
+  Image Source: https://www.avigilon.com/blog/mobile-credentials
+Intercom Systems: Intercoms are communication systems used in buildings, or groups of buildings. They can include video, and are often connected to speakers. These, like
+  the ones fitted to some apartment buildings, prevent unwanted access. Anyone wanting to enter the building that doesn't have a key must ring the intercom for the house/
+  apartment they wish to enter. If the owner knows/ expects them, they can let them in, but if they don't, the person has no means of accessing the building, keeping 
+  out potential thieves.
+  Image Source: https://ultrasecuredirect.com/19397-large_default/8-apartment-4g-gsm-intercom.jpg
+Turnstiles: Turnstiles are a type of gate that let one person travel through at a time. They are common at train stations, amusement parks and stadiums to ensure that only
+  those who have paid are allowed in. Commonly, the only way to get the turnstile to turn is to pay at the gate itself, or by scanning a card such as a SmartRider. They
+  range from waist height, to full height. It is relatively easy for people, called fare evaders, to circumvent some models of turnstiles, leading to the full height ones
+  used in some subway stations.
+  Source: https://en.wikipedia.org/wiki/Turnstile
+  Image Source: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Turnstiles_in_Alewife_station%2C_August_2005.jpg/500px-Turnstiles_in_Alewife_station%2C_August_2005.jpg
+Bollards: Bollards are a common way of preventing vehicles from accessing areas they are not supposed to. These include concrete and metal versions, commonly installed
+  in car parks or on roads to create pedestrian safe environments. Some bollards are fitted subterrainianly, retracting into and out of the ground to allow access at certain
+  times, and blocking the area in others.
+  Image Source: https://wafenceworks.com.au/wp-content/uploads/2021/12/AdobeStock_128123405-Large.jpeg
+Interlocking/Airlock Doors: These are systems where two or more doors are electronically connected in such a way that one cannot be opened without the other being shut.
+  This creates a small room between the doors that, if the person trying to enter is not allowed to, they cannot pass the second door. This use is seen sometimes in 
+  jewellery stores, where the first/ outer door is unlocked, but the person, once the first door is shut, must be 'buzzed in' to access the shop. The principle also 
+  prevents piggy-backing, and if a malicious user tries to enter with a valid one, the second door won't open. It also provides a security measure against things getting 
+  out, and for this reason are used in aviaries and walk-in cages at zoos. 
+  Image Source: https://www.spectra-vision.com/wp-content/uploads/2022/09/Dit-2-1.jpg
