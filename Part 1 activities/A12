@@ -1,5 +1,25 @@
-secure id product- rsa secureid
-virus scanners
-hashcat
-nikto
-kali linux
+RSA SecurID is an offline token that is designed to create authentication codes. At fixed intervals, a built in clock and a seed. This seed is unique to the token, and is encoded
+  into the token at the factory. This seed is also loaded into the RSA SecurID server. To authenticate a user, they must enter their PIN, and the number displayed on the
+  token at that moment. In an offline environment, to authenticate the user, the system must know the seeds, of which the system will calculate what code the token should
+  have generated. If they match, the user is authenticated. 
+  Source: https://en.wikipedia.org/wiki/RSA_SecurID
+  Image source: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/SecureID_token_new.JPG/500px-SecureID_token_new.JPG
+Virus Scanners: Every type and subtype of viruses have different propagation methods, and have different code structures. However, they all have similar features in thei
+  codes, and virus scanners look for the signatures produced by malware. The virus scanner uses profiles to compare to files on the host device. If a file matches the signature
+  in the profiles, the scanner will alert. Profiles contain general features for several types of malware, because viruses are constantly updating and so a specific profile
+  might let too many viruses through. When it detects a mailcious file, it can either disinfect it (remove the malicious parts), put it in quarantine (where it can do no
+  damage, but still attempt to be fixed) or deleted (once it has been proved to not harm the computer to do so).
+  Source: https://www.gdatasoftware.com/guidebook/what-actually-is-a-virus-scanner
+  Image Source: https://www.gdatasoftware.com/fileadmin/_processed_/e/2/G_DATA_Screenshot_IS_2018_SecurityCenter_EN_Correct_66ea191a5b.jpg
+Hashcat: Hashcat is the fastest open-source password cracking software. This is important for security for a number of reasons. It can be used to test password strength.
+  The quicker that it cracks the password, the weaker it is. This can prompt the user or the IT-department to create a new password, or strengthen the existing one. It 
+  can be used to recover lost passwords when traditional password resets are impossible or impractical. Hashcat runs in a few ways. 
+  Dictionary attack: This is when it uses a list of common passwords, dictionary words and pre-cracked passwords. It converts these words into hashes and checks against
+    the desired hash. This is best for weak passwords.
+  Brute-force attack: This is when it generates every character combination within a set of guidelines. It compares the hashes of these with the desired hash. It is the
+    most computationally expensive though
+  Rule-based attack: Similar to the dictionary attack, this swaps symbols in for letters of dictionary words following common password ruless. For example, 'a' becomes '@'.
+  Source: https://jumpcloud.com/it-index/what-is-hashcat
+  Image Source: https://hashcat.net/hashcat/hashcat700.png
+Nikto: 
+Kali Linux: 
