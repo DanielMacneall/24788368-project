@@ -1,1 +1,15 @@
+The first lab activity was to create a cypher system to encode three messages. Everyone then tried to decypher these encrypted messages to crack the encryption protocol.
 
+The second lab activity was to come up with a way for a group of people to calculate the average of a set of data without revealing to the rest of the group what their
+data was. This simulates situations like calculating an average amount of money held by a group without exposing to everyone how much each person has individually. 
+To do this, each group member took their secret balance, and gave a part to everybody else, keeping a secret part for themselves. In this case, my balance was 215, and
+my secret portion was 65. I sent 34, 52 and 64 to the other members. Adding together all of the numbers that I was given by the other members with my secret number, 
+I got the total 298. Now everyone shares the total that they calculated, to get the overall total 1431, producing an average of 357.75. This was verified by averaging the
+balances of each person. This last step would not occur in the real world, but for the activity we were verifying that our method worked.
+
+The third lab activity was to create a set of rules that could be used to define a set of access control rules to only allow our group members entry into a system. If 
+everyone was still standing, then they had been granted access by the system. Our first rule was that only people who were wearing a pen on their left wrist would pass.
+By this we meant that they had a pen attached onto a bracelet/ bangle on their left wrist. The second rule was that they had to have their laptop upside on the desk in
+front of them. The third rule was that they had to be wearing only one shoe. Our final rule was that they had to be 19 years old. In practice, these rules were not very
+successful at allowing only our group 'entrance', because appart from the last rule, they were all something that could be done quickly by the other people in the room,
+so do not provide a very secure set of access control rules.
