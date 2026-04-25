@@ -21,4 +21,17 @@ Into the Cuckoo's Nest:
   First recorded use of a honeypot server
   4 hackers out of West Germany working for East Germany
   KGB paid for the techniques as well as the data
-https://www.youtube.com/watch?v=qVET1vD3NtQ
+Cybersecurity in the Age of AI:
+  This was a TED talk hosted by Adi Irani in November 2023, viewed on the 25th of April 2026. The point of this seminar is to iterate just how powerful artificial
+  intelligence is, with a focus on how hackers can use it to efficiently create resources such as viruses and phishing emails to steal users' data. It also brought 
+  attention to how reliant almost every user is on their private data, and how to protect that data from AI fueled attacks.
+  The key defenses are:
+    Using generative AI to complete mundane tasks
+    Focusing on system design and overall security
+    Using AI detectors to check for AI generated content if something looks suspicious
+    Do research into how your data can be used against you
+Source:
+  TEDx Talks. (2024, January 5). Cybersecurity in the age of AI | Adi Irani | TEDxDESC Youth [Video]. YouTube. https://www.youtube.com/watch?v=qVET1vD3NtQ
+
+ 
+
