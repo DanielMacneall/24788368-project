@@ -1,2 +1,24 @@
-Friday's talk
+Into the Cuckoo's Nest:
+  On Friday the 24th of April, the UCC hosted a talk by Mark Tearle. It was about how Cliff Stoll used a 75c discrepancy to detect and identify a group of hackers in the
+  network of the Lawrence Berkeley National Laboritory in 1986. Here is a copy of the notes I took.
+  Black hat = bad users
+  White hat = good
+  75c discrepancy
+  Two sets of records
+    Unix systems accounting    <-|
+    Localised accound scripts  <-| compared
+  "Hunter", dockmaster email, Joe Sventek (cambridge + left 1 year prior)
+  50 dial in lines
+  Intruder coming from X.25 Tymnet connection
+  Bug with emacs
+  Got sent a page when the user logged in
+  Accessing from Oakland
+  Looked at password files
+  RAINBOW TABLES
+  Started hacking White Sands Test Facility
+  Hacker was outside the continental US
+  Traced hacker through the line (8 hours)
+  First recorded use of a honeypot server
+  4 hackers out of West Germany working for East Germany
+  KGB paid for the techniques as well as the data
 https://www.youtube.com/watch?v=qVET1vD3NtQ
