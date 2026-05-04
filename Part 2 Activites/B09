@@ -16,10 +16,10 @@ These are notes from the Fraud Detection in the Banking Sector lecture hosted by
   Account takeover
     Attacker gains access to a customer account via phishing, credential stuffing, or SIM swap. Victim is locked out of their own account.
     1. Credential harvesting: phishing for email or fake login page captures username and password. Or bought from a data breach marketplace.
-    2. Account access: Attacker logs in from a new device or unknown IP. System may flag it, but not always block it.
+    2. Account access: attacker logs in from a new device or unknown IP. System may flag it, but not always block it.
     3. Recon: Attacker reviews balances, linked payees, contact details.
-    4. ****
-    5. ****
+    4. Social engineering: may call the bank impersonating the customer, or call the customer impersonating the bank, to bypass MFA.
+    5. Fund transfer: rapid transfers to mule accounts. Often multiple smaller transactions to avoid triggering velocity thresholds.
   Authorised push payment
     Customer is deceived into authorising a payment to a fraudster- impersonating banks, government, or even family members.
   Identity theft
@@ -67,7 +67,7 @@ These are notes from the Fraud Detection in the Banking Sector lecture hosted by
     Combines multiple signals into a single risk score per transaction or session. High score = flagged for analyst review
     Balances automation with human judgement.
   Hybrid approaches
-    Most modern fraud systems ****
+    Most modern fraud systems combine rules with ML and analyst review. No single method catches everything. The analyst remains the final decision maker.
 
   Alert generated -> Case created -> Signal review -> Customer contact -> Decision
   False positive = legitimate action flagged as fraud.
@@ -84,4 +84,4 @@ These are notes from the Fraud Detection in the Banking Sector lecture hosted by
     Anomaly detection at scale: ML models itendify behaviour across millions of transactions in real time.
     Behavioural profiling: AI builds a unique baseline for each custoemr based on spending patterns, device usage and timing. Any deviation automatically raises a flag.
     Real time risk scoring: every transaction gets a risk score milliseconds before it is approved. High risk transactions are paused for review or declined.
-    ****
+    Analyst decision support: AI surfaces the most relevant signals to the analyst so they can make faster, more accurate decisions.
