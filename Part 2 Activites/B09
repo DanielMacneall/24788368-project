@@ -1,0 +1,87 @@
+These are notes from the Fraud Detection in the Banking Sector lecture hosted by Wellington Muvunduke on the 4th of May:
+  What financial crime looks like in the real world
+    Illegal acts involving money, systems or assets to produce illicit gain.
+  Traditional cybersecurity
+    Protect systems from intrusion
+    Attacker uses exploits and malware
+    Perimeter based controls are primary
+    Alert = anomalous system behaviour
+    Response time: hours to days
+  Financial fraud
+    Abuse of legitimate access
+    Attacker uses stolen credentials or deception
+    Social engineering is the primary vector
+    Alert = anomalous human behaviour
+    Response time: seconds to minutes
+  Account takeover
+    Attacker gains access to a customer account via phishing, credential stuffing, or SIM swap. Victim is locked out of their own account.
+    1. Credential harvesting: phishing for email or fake login page captures username and password. Or bought from a data breach marketplace.
+    2. Account access: Attacker logs in from a new device or unknown IP. System may flag it, but not always block it.
+    3. Recon: Attacker reviews balances, linked payees, contact details.
+    4. ****
+    5. ****
+  Authorised push payment
+    Customer is deceived into authorising a payment to a fraudster- impersonating banks, government, or even family members.
+  Identity theft
+    Fraudster opens accounts or applies for credit using stolen personal info. Victim may not know for weeks of months.
+  Card fraud
+    unauthorised use of card details. Card not present fraud is dominant in online transactions.
+  Insider threats
+    Employees with system access misuse their position to commit fraud or assist external actors- one of the hardest to detect.
+  Money laundering
+    Making illicit funds appear legitimate. Banks are legally required to detect and report suspicious activity.
+  
+  Application fraud
+    Occurs when someone uses false, stolen or synthetic information to apply for financial products, such as loans, credit cards or bank accounts.
+  Romance and pig butchering
+    Long term deception where fraudster builds trust over weeks before requesting funds.
+  Investment scams
+    Fake trading platforms, crypto schemes and too good to be true returns.
+  Business email comprimise
+    Impersonating a CFO or supplier via email to redirect payments.
+  SIM swap attacks
+    Fraudster convinces a telco to transfer a victim's phone number to a new SIM, bypassing SMS based MFA.
+  Synthetic identity fraud
+    Fraudster creates a fake identity by blending real and fabricated data. Builds credit over time then vanishes.
+
+  Tools and techniques used to detect suspicious behaviour
+    Technical signals
+      Device fingerprinting
+      Geolocation anomalies
+      Velocity checks- rapid repeated actions
+      Behavioural biometrics
+      New device or unrecognised login
+    Behavioural signals
+      Change in transaction patterns
+      New payee creation
+      Unusual transaction timing
+      Large or out-of-character payment amounts
+      Deviation from customer's historical baseline
+
+  Rule based detection
+    If X then alert. Fast and explainable, but rigid. Often learned to work around.
+  Mahcine learning models
+    Trained on historical fraud data to score transactions for risk. Catches complex patterns no rule could encode. Powerful but black boxes.
+    Lots of false positives.
+  Risk scoring engines
+    Combines multiple signals into a single risk score per transaction or session. High score = flagged for analyst review
+    Balances automation with human judgement.
+  Hybrid approaches
+    Most modern fraud systems ****
+
+  Alert generated -> Case created -> Signal review -> Customer contact -> Decision
+  False positive = legitimate action flagged as fraud.
+  False negative = fraud goes undetected -> customer loses money + bank may be liable
+
+  How AI is being weaponised
+    AI generated phishing: perfectly written, hyper-personalised phishing emails at massive scale. No more spelling mistakes or obvious tells. Scrapes LinkedIn and 
+    social media.
+    Voice cloning: real-time voice synthesis can now impersonate family members, bank staff or government officials. OFTEN CAN DETECT BECAUSE COMPUTERS DON'T BREATHE.
+    Deepfake indetity verification: fake live videos to bypass Know Your Customer checks at accound opening.
+    Automated scam scaling: AI bots can run thousands of scam attempts simultaneously, messaging platforms, dating apps, investment forums. The cost per attempt has 
+    dropped to near zero.
+  AI defense
+    Anomaly detection at scale: ML models itendify behaviour across millions of transactions in real time.
+    Behavioural profiling: AI builds a unique baseline for each custoemr based on spending patterns, device usage and timing. Any deviation automatically raises a flag.
+    Real time risk scoring: every transaction gets a risk score milliseconds before it is approved. High risk transactions are paused for review or declined.
+    ****
