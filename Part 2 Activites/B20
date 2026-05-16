@@ -1,1 +1,5 @@
+To enhance the security of my github project, I implemented dependabot.
+Dependabot is an automated dependency update and security tool that automatically scans a github project's configuration files to create pull requests when updates are
+available or known security vulnerabilities are detected.
 
+To implement dependabot, I went to Security and quality, and enabled dependabot alerts
