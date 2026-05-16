@@ -1,0 +1,25 @@
+The lecture hall was packed, the low hum of chatter instantly dying down as Leo adjusted his lapel mic. He leaned against the edge of the professor’s desk, looking out at the rows of undergraduate students.
+
+"Everyone in this room thinks they’re too smart to get phished," Leo began, his voice carrying easily. "You’ve all seen the emails from foreign princes or the ones with glaring typos. You think it’s obvious. But real cybercriminals don't rely on luck; they rely on human nature. Today, we’re going to dissect how a sophisticated phishing campaign is actually built, step by step."
+
+He clicked a remote, and the massive projector screen behind him flickered to life, displaying a perfectly generic corporate login portal.
+
+"Step one is **reconnaissance and targeting**," Leo said, pacing slowly. "If I’m targeting a specific organization—what we call spear-phishing—I don't guess. I spend hours on LinkedIn, GitHub, and company blogs. I map out the organizational hierarchy. I find out what software the company uses, who reports to whom, and what vendors they trust. Let's say I find out your university uses a specific third-party platform for payroll."
+
+A student in the front row raised her hand. "So you just copy their logo?"
+
+"It’s a bit more meticulous than that," Leo nodded. "Step two is **technical infrastructure**. To make the trick work, the attacker needs a domain that passes a casual glance. They’ll register something using typosquatting—like replacing a lowercase 'l' with a number '1', or adding a subtle suffix like `-portal` or `-secure` to the real domain name. They will even set up valid SSL certificates so the victim sees that comforting little padlock icon in their browser address bar."
+
+Leo clicked the remote again. An image of an email appeared on the screen. It looked identical to an official automated notification from the university’s HR department.
+
+"Step three is the **payload delivery via emotional engineering**," Leo continued, pointing at the screen. "Look at this draft. The visual identity—the fonts, the footer, the copyright notice—is ripped directly from the legitimate site's CSS. But the real weapon here isn't the code. It’s psychology. Can anyone tell me what psychological levers are being pulled in this text?"
+
+A student near the back spoke up. "It says 'Immediate Action Required: Discrepancy in Direct Deposit Information.'"
+
+"Exactly," Leo said. "**Urgency and Fear**. If I tell you that your paycheck might not deposit this Friday, your brain takes a shortcut. The prefrontal cortex—the part that handles critical thinking—gets bypassed by the amygdala, which handles stress. You stop looking for anomalies because you're focused on fixing the problem. Other campaigns use **Authority**—faking an email from the CEO demanding a quick task—or **Scarcity**, like a limited-time IT upgrade window."
+
+Leo walked back to the board. "Now, look at the call-to-action button. It says 'Verify Account Details.' When the victim clicks that, they aren't taken to the real payroll site. They are directed to a reverse-proxy server or a meticulously cloned landing page hosted on that lookalike domain we talked about."
+
+The room was completely silent as Leo wrapped up the thought.
+
+"The moment the victim types their username and password into that fake portal, the attacker captures the credentials in real-time. Even if the user realizes a second later that something felt off, the keys to the kingdom have already changed hands. That is how a criminal breaches a network—not by breaking the encryption, but by asking nicely in a way that makes you want to give it away."
