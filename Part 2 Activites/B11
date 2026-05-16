@@ -1,1 +1,40 @@
+First expert: Sam Kerr
+  1. Bit of an introduction: Who are you/ what do you do?
+    My name is Sam; I'm a cyber security professional. I graduated studying Cyber Security in 2022.
+    From there I got a job as a Help Desk Technician/consultant at a Perth MSP provider, then I moved into the Cyber Security industry in 2024 working for a big 
+    multinational Cyber Security company as a Security Analysist.
+    In 2025 I joined Qbit as their first Cyber Security technician, to aid them getting their Cyber Security offering off the ground. 
+  2. What projects are you currently working on/ have just finished?
+    Current projects involve getting clients SMB1001 certified. SMB1001 is a relatively new global Cyber Security standard that has multiple tiers of assertation.
+    More projects recently are with Application whitelisting and vulnerability management for our customers. Especially vulnerability management as that ties in very 
+    early in the SMB1001 certification tiers.
+  3. What is your thought process/ what are the stages for you when implementing a project?
+    When a project comes in, Depending on the job I would be involved in the middle and at the end. For the middle I'll be involved with the configuration of security 
+    controls like conditional access policies once their Entra tenant has been set up.
+    Where I come in most is at the end where Vulnerability management and Application whitelisting come in. I does depend on the project of course, as if the project 
+    is solely a Security uplift I would be doing a majority of the work.
+  4. Finally, what difficulties (if any) did you encounter?
+    There is not many difficulties in my role, but more considerations with implementing Cyber. Security is great but it can also be overbearing for end users, its 
+    about finding the right balance between security and usability.
+    More so with Application Whitelisting which is very invasive in its nature. It takes a lot of work to get an environment ready for whitelisting to be enforced. 
+    If the right application or process is not approved/allowed properly and you enforce the rule, it could cripple an environment. This is easy to reverse, but its 
+    the consideration and testing that has to take place beforehand which can be difficult.
 
+Second expert: Simon Macneall
+  1. Bit of an introduction: Who are you/ what do you do?
+    Simon Macneall, CTO of Colleagues Matrixx. I oversee the development/technology team at the company.
+  2. What projects are you currently working on/ have just finished?
+    I've just finished mitigation of issues found during a regular penetration test against one of our core products. 
+    These involved fixing:
+      a. Access control (System allowing lower level users access to incorrect functionality through query modification)
+      b. Blocking Cross-Site Scripting (XSS) issues
+      c. Adding security verification (requiring reentry of password) for sensitive actions
+  3. What is your thought process/ what are the stages for you when implementing a project?
+    The steps taken for this project
+      a. Break down the penetration test document into items that need rectifying. 
+      b. Prioritising the items based on the severity of the issue (Chance of being seen in the wild and damage caused if implemented by a rogue actor).
+      c. Reproduce the issue in our development environment
+      d. Rectify the problem
+      e. Rerun the penetration test
+  4. Finally, what difficulties (if any) did you encounter?
+    Some items were hard to reproduce (involving manipulating the DOM in the web browser and updating request parameters to trigger the issue)
