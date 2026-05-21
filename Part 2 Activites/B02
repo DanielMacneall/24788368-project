@@ -1,8 +1,27 @@
-Employee security training
-zero trust network segmentation
-Data encryption and backup
-Access control systems
+Employee security training:
+  A strong security implementation is up-to-date and accurate employee training. By giving employees the best possible information, they become aware of current security
+  information, as well as the business's incident response plan. These make it much easier for employees to make better cybersecurity decisions, including how to spot phishing
+  emails, what makes a strong password, what constitutes suspicious behaviour. Better trained employees reduce the risk of data breaches, and helps reduce the severity of
+  data breaches.
+Zero trust network segmentation:
+  Zero trust network segmentation is when a network always treats all users, devices and applications as untrusted. This is done through a couple of ways. The first is that
+  every access request must be authenticated, no matter where it came from. The second is least privileged access, which is where devices or users always have the minimum user
+  permissions that are required to do the job they're assigned. The third is to assume that a breach is inevitable, forcing security teams to design controls to contain threats
+  that have already infiltrated the system. These are all strong security implementations because they remove any assumptions that could prove to be incorrect and potentially 
+  harmful for the business.
+Data encryption and backup:
+  It is a strong security implementation to encrypt a company's data, as well as storing a recent backup of that data. This makes it much harder for attackers to: 1. access
+  the potentially sensitive data, and 2. the data cannot be used against the company in situations where ransomware has infected the company. If a company is infected with 
+  ransomware, provided the backup is stored in a different location, they don't have to worry about paying the hackers, because they still have access to the ransomed data.
+Access control systems:
+  A strong security implementation is strong access control measures. Good access control methods ensure that a company's operating data, and physical devices/ records can
+  only be accessed by the people authorised to use them. For example, having different keys for higher-clearance level rooms, using unique passwords/ PINs to only grant access 
+  to places the person is permitted to be in. From a cyber point-of-view, access control systems prevent groups of people accessing documents through user permissions. Only people
+  who can access/ edit a file can do so.
 Security cameras:
-  Security cameras are important security implementations. They provide a deterrent for attackers, and provide a log of activities in the case of a 
+  Security cameras are important security implementations. They provide a deterrent for attackers, and provide a log of activities in the case of an incident. Without
+  security cameras, it becomes much harder for a business to seek reinbursement for physical losses, and much harder for perpetraitors to be caught.
 
-https://officerreports.com/blog/5-essential-security-measures-every-business-needs/
+Sources:
+Palo Alto Networks. (n.d.). What is zero trust architecture? Key elements and use cases. https://www.paloaltonetworks.com/cyberpedia/what-is-a-zero-trust-architecture
+Sparkman, C. (2024, March 29). 5 essential security measures every business needs. OfficerReports, Inc. https://officerreports.com/blog/5-essential-security-measures-every-business-needs/
