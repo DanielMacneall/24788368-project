@@ -1,1 +1,9 @@
-
+Dependabot:
+  GitHub's Dependabot is an example of a proactive security measure. Dependabot constantly monitors newly published CVEs, and whenever a linked library becomes
+  vulnerable, it sends out an alert to inform you there is a new vulnerability that needs to be patched.
+OWASP ZAP:
+  OWASP ZAP is a proactive security measure because it automatically scans web applications while they are being developed. This means that developers get feedback on
+  the security of their projects while they are being written, preventing vulnerabilities ever being exposed to the public.
+OSS-Fuzz:
+  OSS-Fuzz continuously tests open-source software for vulnerabilities by throwing large amounts of malformed inputs at the software to see what makes it crash/ what
+  security bugs there are. This is proactive because it finds the vulnerabilities before an attacker can.
