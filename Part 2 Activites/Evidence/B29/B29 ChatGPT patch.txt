@@ -1,0 +1,27 @@
+SECURITY_DEFAULTS = {
+    "rails_env":                    "production",
+    "large_blob_rejection_enabled": "bool:true",
+    "reject_sha_like_refs":         "bool:true",
+    "custom_hooks_dir":             "/safe/hooks",
+    "push_option_count":            "0",
+}
+
+def build_xstat_header(push_options: list, security_fields: dict) -> str:
+    """Builds the X-Stat internal header safely."""
+
+    def validate(value: str) -> str:
+        # Reject delimiter/control characters used by the protocol
+        if ";" in value or "=" in value:
+            raise ValueError("Invalid characters in push option")
+        return value
+
+    parts = []
+
+    for key, value in security_fields.items():
+        parts.append(f"{key}={validate(str(value))}")
+
+    for i, option in enumerate(push_options):
+        safe_option = validate(str(option))
+        parts.append(f"push_option_{i}={safe_option}")
+
+    return "; ".join(parts)

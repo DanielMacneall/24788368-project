@@ -1,0 +1,17 @@
+import urllib.parse
+
+def build_xstat_header(push_options: list, security_fields: dict) -> str:
+    """Builds a secure X-Stat internal header for git push pipeline."""
+    parts = []
+    
+    # 1. Add trusted internal security fields
+    for key, value in security_fields.items():
+        parts.append(f"{key}={value}")
+        
+    # 2. Add user-supplied push options safely by encoding control characters
+    for i, option in enumerate(push_options):
+        # Safely quote characters like ';' and '=' to prevent header injection
+        safe_option = urllib.parse.quote(str(option), safe="")
+        parts.append(f"push_option_{i}={safe_option}")
+        
+    return "; ".join(parts)

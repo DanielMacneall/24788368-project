@@ -1,0 +1,16 @@
+def build_xstat_header(push_options: list, security_fields: dict) -> str:
+    """Builds the X-Stat internal header for git push pipeline (sanitized)."""
+    parts = []
+
+    # Add trusted security fields
+    for key, value in security_fields.items():
+        parts.append(f"{key}={value}")
+
+    # Add sanitized push options
+    for i, option in enumerate(push_options):
+        # Reject dangerous characters
+        if ";" in option or "=" in option:
+            raise ValueError("Invalid push option: contains forbidden characters")
+        parts.append(f"push_option_{i}={option}")
+
+    return "; ".join(parts)
