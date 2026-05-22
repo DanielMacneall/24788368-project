@@ -1,1 +1,23 @@
-https://www.tenable.com/cve/CVE-2026-7359
+The CVE I picked is CVE-2026-3854. This CVE is a command injection vulnerability. If a user ran git push with custom push options, they could add extra fields that would
+be explicitly trusted by downstream services. The way X-Stat creates internal headers is to separate fields with a semicolon. A user could put semicolons and equals signs
+in their git push to add extra fields, or could overwrite existing fields because of last-write-wins semantics. 
+
+Please see the patch files in Evidence/B29
+
+ChatGPT:
+  ChatGPT used an if statement to ensure that there were no dangerous symbols in the input. It throws an exception when the user inputted string contains those symbols,
+  in order to prevent the creation of extra fields/ overriden fields. Unlike Gemini, it decided that the best option would be to stop any process, instead of trying to
+  continue on with a sanitised input. It also ensured that there were no dangerous symbols in the security fields, which are already defined, supposedly trusted fields.
+  This is a good practice, just in case something has been altered already.
+Gemini:
+  Gemini was the only AI to not use an if statement to check whether the input has a ; or an =. Instead, it uses urllib.parse.quote() to percent-encode special symbols.
+  By default, urllib.parse.quote() doesn't change /, but Gemini's response added the parameter safe='', which tells urllib.parse.quote() to encode every special symbol.
+  Percent-encoding special symbols converts them into their hexadecimal form, before placing a % sign infront. This traps the malicious input, because it tells any future
+  servers that the symbol is a literal semicolon, not a structural semicolon. Therefore, the result is that the user-inputted, malicious string is not broken into several
+  fields, but is kept together. 
+  An input of: "hello world; rails_env=development"
+  Unpatched: hello world;rails_env=development
+  Patched: hello%20world%3B%20rails_env%3Ddevelopment
+Copilot:
+  Copilot implemented an almost identical patch to ChatGPT, using an if statement to check if the string contained dangerous characters like ; and =. Unlike ChatGPT 
+  however, Copilot didn't verify the security fields didn't contain those characters too.
