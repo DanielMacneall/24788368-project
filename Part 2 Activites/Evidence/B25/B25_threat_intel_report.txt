@@ -1,0 +1,88 @@
+=================================================================
+  THREAT INTELLIGENCE REPORT
+  Generated: 2026-05-22 05:49:59
+  Source:    Suricata fast.log
+=================================================================
+
+EXECUTIVE SUMMARY
+----------------------------------------
+  Total alerts analysed:   33
+  Unique source IPs:       3
+  Unique signatures:       3
+  Attack patterns found:   2
+
+  Severity breakdown:
+    Medium      32  ████████████████████████████████
+    Low          1  █
+
+ATTACK PATTERNS DETECTED
+----------------------------------------
+
+  Pattern 1: Multi-Stage Activity
+  Risk:        High
+  Source IP:   10.0.2.15
+  Alerts:      28
+  Tactics:     Discovery / Impact, Reconnaissance
+  Description: Source 10.0.2.15 triggered 2 distinct signatures suggesting coordinated multi-stage activity.
+
+  Pattern 2: Sustained Attack
+  Risk:        Medium
+  Source IP:   10.0.2.15
+  Alerts:      28
+  Tactics:     Discovery / Impact
+  Description: Signature 'SURICATA ICMPv4 unknown code' fired 28 times — indicates sustained or automated attack activity.
+
+ENRICHED ALERT DETAILS
+----------------------------------------
+
+  [Medium] Known Vulnerability Scanner Domain
+  SID:         2052510
+  Signature:   ET INFO Acunetix Web Vulnerability Scanning Serice Domain in DNS Lookup (testphp .vulnweb .com)
+  Protocol:    UDP
+  MITRE ATT&CK: T1595.002 — Reconnaissance
+  Technique:   Active Scanning (T1595)
+  Description: DNS lookup for a domain associated with the Acunetix web vulnerability scanner. Indicates active scanning of web applications for known vulnerabilities.
+  Response:    Investigate source host for unauthorised scanner tools. Block outbound scanning if not authorised.
+  Occurrences: 4 alerts
+  First seen:  05/19/2026-07:46:17.599192
+  Last seen:   05/22/2026-00:24:28.440306
+
+  [Medium] Anomalous ICMP Traffic
+  SID:         2200025
+  Signature:   SURICATA ICMPv4 unknown code
+  Protocol:    ICMP
+  MITRE ATT&CK: T1498.001 — Discovery / Impact
+  Technique:   Network Denial of Service (T1498) / Host Discovery (T1018)
+  Description: ICMP packets with unexpected type/code combinations. High-volume ICMP may indicate a flood attack (DoS) or network mapping activity using non-standard ping probes.
+  Response:    Correlate with volume data. If sustained, apply ICMP rate limiting at the perimeter firewall.
+  Occurrences: 28 alerts
+  First seen:  05/22/2026-00:25:38.728219
+  Last seen:   05/22/2026-04:27:54.373518
+
+  [Low] Generic Protocol Command Decode
+  SID:         2210035
+  Signature:   SURICATA STREAM FIN2 FIN with wrong seq
+  Protocol:    TCP
+  MITRE ATT&CK: Unknown — Unknown
+  Technique:   Unknown
+  Description: Alert triggered by signature: SURICATA STREAM FIN2 FIN with wrong seq
+  Response:    Investigate manually.
+  Occurrences: 1 alerts
+  First seen:  05/22/2026-05:14:36.343005
+  Last seen:   05/22/2026-05:14:36.343005
+
+INDICATORS OF COMPROMISE (IOCs)
+----------------------------------------
+  Source IPs:        10.0.2.15, 104.98.3.64, 127.0.0.1
+  Destination IPs:   10.0.2.15, 10.0.2.3, 127.0.0.1, 8.8.8.8
+  Destination ports: 53, 58354, 9
+
+ACTIONABLE RECOMMENDATIONS
+----------------------------------------
+  1. Investigate source host for unauthorised scanner tools. Block outbound scanning if not authorised.
+  2. Investigate manually.
+  3. Correlate with volume data. If sustained, apply ICMP rate limiting at the perimeter firewall.
+
+=================================================================
+  END OF REPORT
+=================================================================
