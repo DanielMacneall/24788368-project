@@ -1,1 +1,27 @@
+The IDE that I used was the Kali-built-in Suricata.
 
+Suricata can be installed with: sudo apt update && sudo apt install suricata -y
+To update the rules that Suricata uses to scan: sudo suricata-update
+This runs Suricata on eth0, which is what Suricata is scanning: sudo suricata -i eth0 -l /var/log/suricata/ --pidfile /var/run/suricata.pid -D
+These are the tests run to investigate the IDE: 
+  sudo ping -f -c 1000 8.8.8.8
+  sudo nmap -sS -p 1-1000 127.0.0.1
+  sudo nmap -O 127.0.0.1
+  curl "http://testphp.vulnweb.com/artists.php?artist=1%27%20OR%20%271%27%3D%271"
+The results:
+  05/22/2026-00:24:28.439461  [**] [1:2052510:1] ET INFO Acunetix Web Vulnerability Scanning Serice Domain in DNS Lookup (testphp .vulnweb .com) [**] [Classification: Misc activity] [Priority: 3] {UDP} 10.0.2.15:47768 -> 10.0.2.3:53
+  05/22/2026-00:24:28.440306  [**] [1:2052510:1] ET INFO Acunetix Web Vulnerability Scanning Serice Domain in DNS Lookup (testphp .vulnweb .com) [**] [Classification: Misc activity] [Priority: 3] {UDP} 10.0.2.15:47768 -> 10.0.2.3:53
+  05/22/2026-00:25:38.728219  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.2.15:8 -> 8.8.8.8:9
+  05/22/2026-00:25:39.059990  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.2.15:8 -> 8.8.8.8:9
+  05/22/2026-00:25:39.223520  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.2.15:8 -> 8.8.8.8:9
+  05/22/2026-00:25:39.387440  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.2.15:8 -> 8.8.8.8:9
+  05/22/2026-00:25:41.221902  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.2.15:8 -> 8.8.8.8:9
+  05/22/2026-00:25:41.493754  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.2.15:8 -> 8.8.8.8:9
+  05/22/2026-00:25:41.645916  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.2.15:8 -> 8.8.8.8:9
+  05/22/2026-00:25:41.797239  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.2.15:8 -> 8.8.8.8:9
+Breakdown:
+  The first two log results are from the curl test. They are Suricata flagging the DNS query as suspicious.
+  The rest of the log results are from the ping test. They are flagging the IMCP packets as suspicious because of the trailing :9. Normal echo packets end in :0. The packets
+  having :9 is abnormal, so was flagged by the IDE.
+Limitations:
+  It is worth noting that the IDE didn't throw any errors for the nmap scans
