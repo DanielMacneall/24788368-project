@@ -1,1 +1,21 @@
-
+AI powered threat detection:
+  AI powered threat detection uses machine learning algorithms to monitor network traffic, user behaviour and system logs to identify patterns that indicate an attack
+  is occuring.
+  Firstly, the system learns what baseline, regular traffic looks like for each user, device and application in the network. Any deviation from the baseline by the system
+  triggers an alert. AI agents collect any alerts, recommending actions to be taken, or in extreme cases, they can take action themselves. For example, Agentic SOCs.
+  Agentic SOCs (Security Operations Centres) are AI powered SOCs that are capable of autonomous reasoning and response with reduced need for human interaction. They respond
+  to anomalous activities based on a pre-defined and approved response plan, executing incident responses quicker than humanly possible, reducing the damage of an attack.
+  Agentic SOCs do still require human interaction to interpret the AI's insites, and approve or ignore these suggestions.
+  Source:
+    Stellar Cyber. (2026, February 23). What is agentic SOC? Complete guide. https://stellarcyber.ai/learn/what-is-agentic-soc/
+Post-quantum cryptography:
+  With the rise in quantum computing, algorithms currently used to encrypt data won't be strong enough to ensure the security of private data. Quantum computing can easily
+  crack encryption algorithms that are too computationally expensive to be run by a non-quantum computer. As such, to protect banking information and other private data in the
+  future, stronger algorithms must be designed that are too computationally expensive to crack, even for quantum computers. At the moment, large amounts of data are being 
+  collected by adversaries to be decrypted when quantum computers become widely available, at which time the data will be used as leverage. The current solution to this is to
+  implement encryption that relies on lattice based mathematics. Lattice based mathematics uses matrices and matrix opertations for things like the PQC equivilant of Diffie-Hellman.
+  Instead of using integers to calculate the keys, Lattice based approaches, like ML-KEM (Kyber), use matrices instead of integers. While this requires more bits during a key
+  exchange, it is post-quantum secure.
+  Sources: 
+    Patton, C., & Schwabe, P. (2025, March 25). Prepping for post-quantum: A beginner’s guide to lattice cryptography. The Cloudflare Blog. https://blog.cloudflare.com/lattice-crypto-primer/
+    The Hacker News. (2026, February 18). Cybersecurity tech predictions for 2026: Operating in a world of permanent instability. https://thehackernews.com/2026/02/cybersecurity-tech-predictions-for-2026.html
