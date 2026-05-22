@@ -1,6 +1,6 @@
 Into the Cuckoo's Nest:
   On Friday the 24th of April, the UCC hosted a talk by Mark Tearle. It was about how Cliff Stoll used a 75c discrepancy to detect and identify a group of hackers in the
-  network of the Lawrence Berkeley National Laboritory in 1986. Here is a copy of the notes I took.
+  network of the Lawrence Berkeley National Laboratory in 1986. Here is a copy of the notes I took.
   Black hat = bad users
   White hat = good
   75c discrepancy
@@ -24,8 +24,8 @@ Into the Cuckoo's Nest:
 Cybersecurity in the Age of AI:
   This was a TED talk hosted by Adi Irani in November 2023, viewed on the 25th of April 2026. The point of this seminar is to iterate just how powerful artificial
   intelligence is, with a focus on how hackers can use it to efficiently create resources such as viruses and phishing emails to steal users' data. It also brought 
-  attention to how reliant almost every user is on their private data, and how to protect that data from AI fueled attacks.
-  The key defenses are:
+  attention to how reliant almost every user is on their private data, and how to protect that data from AI fuelled attacks.
+  The key defences are:
     Using generative AI to complete mundane tasks
     Focusing on system design and overall security
     Using AI detectors to check for AI generated content if something looks suspicious
