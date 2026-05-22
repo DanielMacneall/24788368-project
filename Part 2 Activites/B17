@@ -1,3 +1,8 @@
 The solution I implemented was AI powered threat detection.
 
-
+The program, which was created by Claude, trains two anomaly detection models on simulated normal traffic. Then, the models are evaluated against the known attack-like 
+events used in B23.
+Isolation Forest was much more accurate than the baseline, detecting no False positives. Both baseline and Isolation Forest missed one attack each. Baseline missed the DNS
+attack because it fell within normal values. Isolation Forest missed the port scan attack.
+This shows how even AI powered threat detection, like all IDSs, aren't 100% accurate, or 100% precise. Like common IDSs, there is a trade-off between detecting everything,
+including false negatives (reduced precision), and an increased precision, at the cost of some attacks slipping through the gaps.
