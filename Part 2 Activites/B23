@@ -1,9 +1,9 @@
-The IDE that I used was the Kali-built-in Suricata.
+The IDS that I used was the Kali-built-in Suricata.
 
 Suricata can be installed with: sudo apt update && sudo apt install suricata -y
 To update the rules that Suricata uses to scan: sudo suricata-update
 This runs Suricata on eth0, which is what Suricata is scanning: sudo suricata -i eth0 -l /var/log/suricata/ --pidfile /var/run/suricata.pid -D
-These are the tests run to investigate the IDE: 
+These are the tests run to investigate the IDS: 
   sudo ping -f -c 1000 8.8.8.8
   sudo nmap -sS -p 1-1000 127.0.0.1
   sudo nmap -O 127.0.0.1
@@ -22,6 +22,9 @@ The results:
 Breakdown:
   The first two log results are from the curl test. They are Suricata flagging the DNS query as suspicious.
   The rest of the log results are from the ping test. They are flagging the IMCP packets as suspicious because of the trailing :9. Normal echo packets end in :0. The packets
-  having :9 is abnormal, so was flagged by the IDE.
+  having :9 is abnormal, so was flagged by the IDS.
 Limitations:
-  It is worth noting that the IDE didn't throw any errors for the nmap scans
+  It is worth noting that the IDS didn't throw any errors for the nmap scans. This is because the nmap scans targeted 127.0.0.1 and 10.0.2.1/8.8.8.8 from within a virtualbox.
+  The virtualbox intercepts the packets before they reach eth0, which is what Suricata is scanning. Because of this, Suricata couldn't see the packets coming in. This issue is
+  called sensor placement, and refers to the fact that IDS can only alert to and see packets and attacks coming in on the channel it is scanning. Otherwise, attacks will
+  go undetected, refered to as a false negative.
