@@ -1,0 +1,14 @@
+B17 — AI-Powered Anomaly Detection Evaluation Report
+Date: 2026-05-22 05:08:48
+
+Models: Statistical Baseline + Isolation Forest
+
+Per-sample results:
+  DNS Recon: expected=ATTACK, stat=missed, iso=DETECTED
+  ICMP Flood: expected=ATTACK, stat=DETECTED, iso=DETECTED
+  Normal HTTPS: expected=normal, stat=missed, iso=missed
+  Port Scan: expected=ATTACK, stat=DETECTED, iso=missed
+  Normal DNS: expected=normal, stat=DETECTED, iso=missed
+
+Statistical Baseline: P=66.7% R=66.7% F1=0.67
+Isolation Forest:     P=100.0% R=66.7% F1=0.80
