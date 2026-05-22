@@ -9,10 +9,10 @@ For example, a malicious user could put ../ in the URL of a file request. Coupli
 
 My fix is to do a little input sanitation to ensure the path is still in the intended directory before it is used.
 This involves adding the following lines:
-```real_path = os.path.realpath(file_path)```
-```base_path = os.path.realpath(file_or_directory)```
-```if not real_path.startswith(base_path):```
-  ```raise FileNotFoundError```
+real_path = os.path.realpath(file_path)
+base_path = os.path.realpath(file_or_directory)
+if not real_path.startswith(base_path):
+  raise FileNotFoundError
 
 os.path.realpath() compresses file_path, removing all of the ../ that may be at the start (file_path is the user input)
 if the path specified by the user doesn't start with the intended directory, an exception is raised instead of the server fetching the malicious file path.
