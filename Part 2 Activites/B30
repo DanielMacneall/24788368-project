@@ -12,3 +12,6 @@ is reprocessed in the AI model's latent space.
 There are no conventional ways to embed a imperceptible watermark that will survive AI transformations. One way that a watermark would survive AI transformations is if
 the watermark was in the creative instructions of the AI. For example, asking an AI to generate an image, put an imperceptible watermark in it, and then in the same chat
 have it make the transformations.
+
+Source:
+  Wikipedia. (2026, April 25). Discrete cosine transform. Wikipedia, the free encyclopedia. Retrieved May 22, 2026, from https://en.wikipedia.org/wiki/Discrete_cosine_transform?utm_source=chatgpt.com
