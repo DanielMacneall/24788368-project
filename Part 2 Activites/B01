@@ -1,13 +1,13 @@
 Lack of multi-factor authentication:
-  A lack of multi-factor authentication is a vulnerable security implementation that can make it much easier for hackers/ identity theives to gain access to an account.
-  An example of a company/ system not having multi-factor authentication installed is funko.com. While the option to enable multi-factor authentication in the Funko webiste
+  A lack of multi-factor authentication is a vulnerable security implementation that can make it much easier for hackers/ identity thieves to gain access to an account.
+  An example of a company/ system not having multi-factor authentication installed is funko.com. While the option to enable multi-factor authentication in the Funko website
   exists, it is not enabled by default. This was done to enable the user to choose between authenticator apps or emails. While well meaning, the choice should be made 
   for the user (default to email with the ability to change later). This could lead to large groups of people forgetting to enable it, or not realising they can enable 
   it. The Funko website has the ability to handle online payments and orders, making it a high-risk service, which should have default multi-factor authentication. 
 Unpatched/ outdated software:
-  Unpatched/ outdated software puts devices at risk because they still contain publically documented vulnerabilities that have been found by the public. If a hacker knew
-  the software version of the device, which with older devices can be guessed to a fairly certain degree, they know which publically documented vulnerabilities are in that
-  device that haven't been patched. An example is my old i-pad. I have an i-pad that is too old to update to the latest ios, so is vulnerable to a host of issues that are
+  Unpatched/ outdated software puts devices at risk because they still contain publicly documented vulnerabilities that have been found by the public. If a hacker knew
+  the software version of the device, which with older devices can be guessed to a fairly certain degree, they know which publicly documented vulnerabilities are in that
+  device that haven't been patched. An example is my old i-pad. I have an I-pad that is too old to update to the latest iOS, so is vulnerable to a host of issues that are
   patched in later updates.
 Insecure network configuration (open ports):
   Insecure system configuration is caused by unnecessarily open ports, poorly segregated networks and disabled security features. These all make the server/ network more
